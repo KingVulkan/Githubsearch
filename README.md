@@ -41,3 +41,14 @@ if anyone has question or wants to contribute to the project the please contact 
 6.Type git clone, and then paste the URL you copied in Step 2.
 
 7.Press Enter. Your local clone will be created.
+
+
+## Live link
+
+
+
+## Behavior Driven Development
+
+|Behavior|input|output|
+|--------|-----|------|
+|User submits searhes for github profile .|github Username . |Profile of github user |
