@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProfileService } from '../../services/profile.service';
+import { ProfileService } from '../../service/profile.service';
 
 @Component({
   selector: 'app-profile',
@@ -25,7 +25,7 @@ export class ProfileComponent implements OnInit {
     this.profileService.getProfileRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
-    })
+    });
   }
 
   ngOnInit() {

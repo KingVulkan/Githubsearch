@@ -6,8 +6,8 @@ import 'rxjs/add/operator/map';
 export class ProfileService {
 
   private username: string;
-  private clientid = 'c5a1730ce870d69e94e7';
-  private clientsecret = 'aeab2f70b3eabd646a340e98e26644e0b9618a74';
+  private clientid = '527e2f382fdeb8f355039a8cda9fdf7b751aa233';
+  private clientsecret = '527e2f382fdeb8f355039a8cda9fdf7b751aa233';
 
   constructor(private http: Http) {
     console.log('service is now ready!');
